@@ -7,7 +7,7 @@ public class AlexV_Test1 {
 
 
 	    @Test
-	    public void simpleTest1sdfvb() {
+	    public void simpleTest1sdfdfghvb() {
 		System.out.println("I'm in");
 	    }
 }
