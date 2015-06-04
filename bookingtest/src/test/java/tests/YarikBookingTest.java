@@ -16,6 +16,7 @@ public class YarikBookingTest {
     public void simpleTest() {
 	System.out.println("I'm in");
     }
-    
+
+   
 
 }
