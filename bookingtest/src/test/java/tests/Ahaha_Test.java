@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Ahaha_Test {
@@ -10,5 +11,8 @@ public class Ahaha_Test {
 	System.out.println("ahahaha");
     }
 	
-	
+    @Test
+    public void testass() {
+	Assert.fail();
+    }
 }
