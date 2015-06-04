@@ -13,7 +13,7 @@ public class Ahaha_Test {
 	
     @Test
     public void testass() {
-	//Assert.fail();
+	Assert.fail();
     	System.out.println("ahahaha");
     }
     
