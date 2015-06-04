@@ -13,6 +13,13 @@ public class Ahaha_Test {
 	
     @Test
     public void testass() {
-	Assert.fail();
+	//Assert.fail();
+    	System.out.println("ahahaha");
+    }
+    
+    @Test (dependsOnMethods = "testass")
+    public void testassq() {
+
+	System.out.println("ahahaha");
     }
 }
