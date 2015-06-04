@@ -4,4 +4,11 @@
   <artifactId>bookingtest</artifactId>
   <version>1.0</version>
   <name>Booking Test</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.9.4</version>
+  	</dependency>
+  </dependencies>
 </project>
