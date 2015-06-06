@@ -6,6 +6,7 @@ import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -34,8 +35,8 @@ public class YarikBookingTest extends DriverSetup {
     @Test
     @Features("Demo")
     @Stories("Demo test")
-    public void testGeneratePasswordWithEmptyFields() throws Exception {
-	
+    public void testDemo() throws Exception {
+	driver.findElement(By.id("sss")).click();
     }
 
    
