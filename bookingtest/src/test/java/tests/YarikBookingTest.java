@@ -37,6 +37,7 @@ public class YarikBookingTest extends DriverSetup {
     @Stories("Demo test")
     public void testDemo() throws Exception {
 	
+    	driver.findElement(By.id("dfd"));
     }
 
    
