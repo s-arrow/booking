@@ -1,16 +1,10 @@
 package tests;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertTrue;
-
 import java.io.IOException;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import ru.yandex.qatools.allure.annotations.Features;
@@ -37,7 +31,7 @@ public class YarikBookingTest extends DriverSetup {
     @Stories("Demo test")
     public void testDemo() throws Exception {
 	
-    	driver.findElement(By.id("dfd"));
+	// driver.findElement(By.id("dfd"));
     }
 
    
